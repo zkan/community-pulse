@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "api"
+name = "community-pulse"
 version = "0.1.0"
 description = ""
 authors = ["zkan <kan@prontomarketing.com>"]
