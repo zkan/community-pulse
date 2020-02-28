@@ -8,8 +8,12 @@ class EventAdmin(admin.ModelAdmin):
     list_display = (
         'name',
         'facebook_event_id',
+        'created',
+        'modified',
     )
     search_fields = (
         'name',
         'facebook_event_id',
+        'created',
+        'modified',
     )

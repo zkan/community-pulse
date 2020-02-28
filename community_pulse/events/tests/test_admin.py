@@ -13,6 +13,8 @@ class EventAdminTest(TestCase):
         expected = (
             'name',
             'facebook_event_id',
+            'created',
+            'modified',
         )
         assert EventAdmin.list_display == expected
 
@@ -20,5 +22,7 @@ class EventAdminTest(TestCase):
         expected = (
             'name',
             'facebook_event_id',
+            'created',
+            'modified',
         )
         assert EventAdmin.search_fields == expected

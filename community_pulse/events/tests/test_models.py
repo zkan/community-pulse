@@ -18,3 +18,5 @@ class EventTest(TestCase):
         assert event.name == expected_name
         assert event.description == expected_description
         assert event.facebook_event_id == expected_facebook_event_id
+        assert event.created
+        assert event.modified
